@@ -1,0 +1,43 @@
+*{
+  color: black;
+}
+.App{
+}
+main{
+
+	display: grid;
+  	grid-template-columns: 40fr 60fr;
+     
+ 
+}
+
+
+.selectedImageGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 5;
+}
+.heroImage img {
+  display: grid;
+  grid-template-rows: 100fr;
+  grid-template-columns: 100fr;
+  position:absolute;  
+/*  margin-left: 100px;*/
+}
+.head {
+position:absolute;  
+z-index:auto;  
+background-color: pink;
+}
+.hair {
+position:absolute;  
+z-index:1;  
+left:125px;  
+top:125px;  
+}
+.top {
+position:absolute;  
+z-index:2;  
+left:250px;  
+top:250px;  
+}
